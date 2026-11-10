@@ -7,3 +7,7 @@ def record(value, history=None):
         history = []
     history.append(value)
     return history
+
+
+def broken_total():
+    return add(2, 3)
